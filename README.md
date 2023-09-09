@@ -29,14 +29,16 @@ The Multifunctional Shield extends the capabilities of your Arduino Uno R3 with 
 ## Getting Started
 To start using the Multifunctional Shield and its features, follow these steps:
 1. **Hardware Setup**: Refer to the schematic and PCB design files in "Sch&Pcb.zip" for guidance on assembling the shield.
-2. **DHT11 Library**: Include the "Dht11.zip" library in your Arduino IDE to enable support for the DHT11 sensor. To do this, follow these steps in the Arduino IDE:
+2. **Symbol and Footprint Access**: To access the KiCad symbol and footprint for the Arduino Uno R3 Multifunctional Shield, follow these steps in KiCad:
+   Go to Tools -> Plugin and Content Manager -> Install KiCad library for Arduino Modules
+3. **DHT11 Library**: Include the "Dht11.zip" library in your Arduino IDE to enable support for the DHT11 sensor. To do this, follow these steps in the Arduino IDE:
    Go to Sketch -> Include Library -> Add .zip Library.
    Select the "Dht11.zip" library file and import it into your project.
-3. **IR Remote Library**: In the Arduino IDE, go to Tools -> Manage Libraries, search for IRremote, and install it. This step is essential for using the IR receiver functionality in "Multifunc.ino."
-4. **Code Usage**: Utilize the functions and pin configurations provided in "Multifunc.ino" to access and control the shield's features in your projects. All functions for components such as LEDs, buzzers, sensors, and the joystick function have been pre-written for your convenience.
+4. **IR Remote Library**: In the Arduino IDE, go to Tools -> Manage Libraries, search for IRremote, and install it. This step is essential for using the IR receiver functionality in "Multifunc.ino."
+5. **Code Usage**: Utilize the functions and pin configurations provided in "Multifunc.ino" to access and control the shield's features in your projects. All functions for components such as LEDs, buzzers, sensors, and the joystick function have been pre-written for your convenience.
 
 ## Finished Product
-Preview of the PCB produced by 3D viewer in Kicad
+Preview of the PCB produced by 3D viewer in KiCad
 
 <img width="456" alt="Screen Shot 2023-09-09 at 4 25 26 PM" src="https://github.com/chenw7/UnoR3_Multifunctional_Shield/assets/91576538/9e75ebaa-3995-4e87-aaf6-7591b2aeee5c">
 
