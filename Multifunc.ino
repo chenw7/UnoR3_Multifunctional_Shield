@@ -87,7 +87,6 @@ void setup() {
 void loop() {
 //  Turns on led for specified time (ms)
 //  ledOne(500);
-//  ledTwo(500);
 
 //  Outputs ultrasonic sensor distance in cm
 //  Serial.println(getDistance());
