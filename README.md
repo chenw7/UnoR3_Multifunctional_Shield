@@ -18,9 +18,12 @@ The Multifunctional Shield extends the capabilities of your Arduino Uno R3 with 
 ## Contents
 1. **Sch&Pcb.zip**: This archive contains the schematic and PCB design files for the Multifunctional Shield. These files are essential for understanding and customizing the hardware components of the shield.
 
-<img width="1010" alt="Screen Shot 2023-09-09 at 4 41 20 PM" src="https://github.com/chenw7/UnoR3_Multifunctional_Shield/assets/91576538/326395fc-5f83-4be5-aead-4422d3f17206">
+<img width="450" alt="Screen Shot 2023-09-09 at 4 41 20 PM" src="https://github.com/chenw7/UnoR3_Multifunctional_Shield/assets/91576538/326395fc-5f83-4be5-aead-4422d3f17206">
+<img width="450" alt="Screen Shot 2023-09-09 at 4 41 48 PM" src="https://github.com/chenw7/UnoR3_Multifunctional_Shield/assets/91576538/4035fbdc-9518-4acd-b2f1-7cd0a70b94ec">
 
-<img width="794" alt="Screen Shot 2023-09-09 at 4 41 48 PM" src="https://github.com/chenw7/UnoR3_Multifunctional_Shield/assets/91576538/4035fbdc-9518-4acd-b2f1-7cd0a70b94ec">
+   For a clearer view, here are the pdf versions to the schematic and PCB files:
+   [Schematic.pdf](https://github.com/chenw7/UnoR3_Multifunctional_Shield/files/12566331/Schematic.pdf), 
+   [PCB.pdf](https://github.com/chenw7/UnoR3_Multifunctional_Shield/files/12566340/PCB.pdf)
 
 2. **Multifunc.ino**: The "Multifunc.ino" file contains the Arduino code for the Multifunctional Shield. It includes pre-written functions and pin configurations that simplify the use of the shield's features. Users can easily incorporate these functions into their own projects.
 3. **Dht11.zip**: This ZIP library should be imported into the "Multifunc.ino" file. It provides support for the DHT11 sensor, allowing the shield to accurately detect temperature and humidity.
