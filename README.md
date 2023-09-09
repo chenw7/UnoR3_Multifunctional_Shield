@@ -17,6 +17,11 @@ The Multifunctional Shield extends the capabilities of your Arduino Uno R3 with 
 
 ## Contents
 1. **Sch&Pcb.zip**: This archive contains the schematic and PCB design files for the Multifunctional Shield. These files are essential for understanding and customizing the hardware components of the shield.
+
+<img width="1010" alt="Screen Shot 2023-09-09 at 4 41 20 PM" src="https://github.com/chenw7/UnoR3_Multifunctional_Shield/assets/91576538/3e557f67-18da-4b51-92e8-c78817561704">
+
+<img width="794" alt="Screen Shot 2023-09-09 at 4 41 48 PM" src="https://github.com/chenw7/UnoR3_Multifunctional_Shield/assets/91576538/5fe307b7-82cb-420b-aaff-f6f91e5537ad">
+
 2. **Multifunc.ino**: The "Multifunc.ino" file contains the Arduino code for the Multifunctional Shield. It includes pre-written functions and pin configurations that simplify the use of the shield's features. Users can easily incorporate these functions into their own projects.
 3. **Dht11.zip**: This ZIP library should be imported into the "Multifunc.ino" file. It provides support for the DHT11 sensor, allowing the shield to accurately detect temperature and humidity.
 4. **Manufacturing.zip**: The "Manufacturing.zip" archive contains Gerber and drill files necessary for PCB manufacturing. These files are intended to be sent to manufacturing companies for the production of the Multifunctional Shield's PCB.
@@ -24,9 +29,9 @@ The Multifunctional Shield extends the capabilities of your Arduino Uno R3 with 
 ## Getting Started
 To start using the Multifunctional Shield and its features, follow these steps:
 1. **Hardware Setup**: Refer to the schematic and PCB design files in "Sch&Pcb.zip" for guidance on assembling the shield.
-2. **Software Integration**: Include the "dht11.zip" library in your Arduino IDE to enable support for the DHT11 sensor. To do this, follow these steps in the Arduino IDE:
+2. **DHT11 Library**: Include the "Dht11.zip" library in your Arduino IDE to enable support for the DHT11 sensor. To do this, follow these steps in the Arduino IDE:
    Go to Sketch -> Include Library -> Add .zip Library.
-   Select the "dht11.zip" library file and import it into your project.
+   Select the "Dht11.zip" library file and import it into your project.
 3. **IR Remote Library**: In the Arduino IDE, go to Tools -> Manage Libraries, search for IRremote, and install it. This step is essential for using the IR receiver functionality in "Multifunc.ino."
 4. **Code Usage**: Utilize the functions and pin configurations provided in "Multifunc.ino" to access and control the shield's features in your projects. All functions for components such as LEDs, buzzers, sensors, and the joystick function have been pre-written for your convenience.
 
